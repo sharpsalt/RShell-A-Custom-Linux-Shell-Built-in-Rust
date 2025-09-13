@@ -1,4 +1,4 @@
-# RShell 🐚
+# RShell- A Custom Linux Shell Built in Rust
 
 A modern, feature-rich shell implementation written in Rust, designed as a learning project showcasing systems programming concepts and Rust's capabilities.
 
@@ -446,3 +446,4 @@ This project is licensed under the Apache License - see the [LICENSE](LICENSE) f
 ---
 
 *Built with lots of Efforts, efforts matters...*
+
