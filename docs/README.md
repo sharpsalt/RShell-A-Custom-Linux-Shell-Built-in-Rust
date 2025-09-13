@@ -1,1 +1,2 @@
-#R Shell-A Custom Linux Shell in Rust
+#RShell-A Custom Linux Shell in Rust
+
