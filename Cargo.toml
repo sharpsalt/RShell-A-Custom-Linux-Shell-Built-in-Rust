@@ -1,0 +1,16 @@
+[package]
+name = "rust_shell"
+version = "0.1.0"
+edition = "2021"
+authors = ["Srijan Verma <srijanv0@gmail.com>"]
+description = "A custom shell implementation in Rust"
+
+[dependencies]
+libc = "0.2"
+nix = "0.27"
+rustyline = "10.0"
+dirs = "4.0"
+
+[[bin]]
+name = "rshell"
+path = "src/main.rs"
