@@ -348,28 +348,28 @@ History                           Process Management
 
 ## Roadmap
 
-### Phase 1: Core Features ✅
+### Phase 1: Core Features 
 - [x] Basic command execution
 - [x] Built-in commands
 - [x] Environment variables
 - [x] Command history
 - [x] Basic parsing
 
-### Phase 2: Advanced Shell Features 🚧
+### Phase 2: Advanced Shell Features 
 - [ ] Pipes and redirection
 - [ ] Background jobs
 - [ ] Signal handling
 - [ ] Command substitution
 - [ ] Glob expansion
 
-### Phase 3: User Experience 📋
+### Phase 3: User Experience 
 - [ ] Tab completion
 - [ ] Syntax highlighting
 - [ ] Configuration system
 - [ ] Aliases
 - [ ] Themes
 
-### Phase 4: Performance 📋
+### Phase 4: Performance 
 - [ ] Command caching
 - [ ] Async I/O
 - [ ] Memory optimization
@@ -446,4 +446,5 @@ This project is licensed under the Apache License - see the [LICENSE](LICENSE) f
 ---
 
 *Built with lots of Efforts, efforts matters...*
+
 
