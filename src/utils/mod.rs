@@ -10,20 +10,20 @@ pub mod string_utils{
         let mut chars=input.chars().peekable();
         while let Some(ch)=chars.next(){
             match ch{
-                '"'|'\''if !in_quotes=>{
+                '"'|'\''if !in_quotes => {
                     in_quotes=true;
                     quote_char=ch;
                 }
-                ch if in_quotes && ch==quote_char=>{
+                ch if in_quotes && ch==quote_char => {
                     in_quotes=false;
                 }
-                ' '|'\t' if !in_quotes=>{
+                ' '|'\t' if !in_quotes => {
                     if !current.is_empty(){
                         result.push(current.clone());
                         current.clear();
                     }
                 }
-                '\\' if chars.peek().is_some()=>{
+                '\\' if chars.peek().is_some() => {
                     if let Some(next_ch)=chars.next(){
                         match next_ch{
                             'n'=>current.push('\n'),
@@ -32,7 +32,7 @@ pub mod string_utils{
                             '\\'=>current.push('\\'),
                             '"'=>current.push('"'),
                             '\''=>current.push('\''),
-                            _=>{
+                            _=> {
                                 current.push('\\');
                                 current.push(next_ch);
                             }
@@ -47,9 +47,9 @@ pub mod string_utils{
         }
         result
     }
-    pub fn expand_tilde(path:&str)->String{
+    pub fn expand_tilde(path:&str) -> String {
         if path.starts_with('~'){//expanding it to home directry
-            if let Some(home)=dirs::home_dir(){
+            if let Some(home)=dirs::home_dir() {
                 path.replacen('~',&home.to_string_lossy(),1)
             }else{
                 path.to_string()
@@ -58,7 +58,7 @@ pub mod string_utils{
             path.to_string()
         }
     }
-    pub fn has_metacharacters(s:&str)->bool{
+    pub fn has_metacharacters(s:&str) -> bool {
         s.chars().any(|c| matches!(c, '|' | '&' | ';' | '<' | '>' | '(' | ')' | '$' | '`' | '"' | '\'' | ' ' | '\t' | '\n'))
     }
 }
