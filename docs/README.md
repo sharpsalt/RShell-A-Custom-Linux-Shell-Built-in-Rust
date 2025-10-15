@@ -19,6 +19,13 @@
 
 RShell is a modern, high-performance shell implementation written entirely in Rust. It combines the power of traditional Unix shells with contemporary features like syntax highlighting, intelligent tab completion, beautiful themes, and advanced performance optimizations.
 
+
+## Demo Pictures
+<img width="910" height="26" alt="Screenshot from 2025-09-13 19-37-36" src="https://github.com/user-attachments/assets/ac5ecc4a-e0e3-4adb-a70e-2eae037e23fe" />
+<img width="910" height="26" alt="Screenshot from 2025-09-13 19-38-00" src="https://github.com/user-attachments/assets/329d332d-8aa0-40dc-91a3-8d552c224367" />
+<img width="1920" height="1080" alt="Screenshot from 2025-09-13 19-26-15" src="https://github.com/user-attachments/assets/42abb8cc-0f44-4ac1-b9de-bf7346759a69" />
+
+
 ### Why RShell?
 
 - **Faster Command Execution**: 50% faster built-in commands
@@ -604,6 +611,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made for developers who value performance and modern features**
 
 </div>
+
 
 
 
