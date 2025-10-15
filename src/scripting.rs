@@ -39,10 +39,9 @@ impl ScriptEngine {
                 continue;
             }
             
-            // Expand variables in the line
+           
             let expanded_line = self.expand_variables(line);
             
-            // Parse and execute the command
             match crate::shell::parser::Parser::new(&expanded_line) {
                 Ok(mut parser) => {
                     match parser.parse() {
@@ -62,7 +61,6 @@ impl ScriptEngine {
                 }
             }
             
-            // Exit on error if script uses 'set -e' equivalent
             if last_exit_code != 0 && self.variables.get("errexit").is_some() {
                 return Ok(last_exit_code);
             }
