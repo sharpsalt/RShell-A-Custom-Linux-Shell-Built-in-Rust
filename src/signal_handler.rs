@@ -1,4 +1,3 @@
-// src/signal_handler.rs
 use nix::sys::signal::{self, Signal, SigHandler, SigSet, SigAction, SaFlags};
 use std::sync::atomic::{AtomicBool, Ordering};
 
