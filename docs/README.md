@@ -388,16 +388,28 @@ COMPLETE
 ## Architecture
 
 ### System Architecture
+
+# 1. High-Level System Architecture
 <img width="4887" height="1422" alt="1  High-Level System Architecture" src="https://github.com/user-attachments/assets/cf99565a-e432-4d6e-9cc4-abf8f38e2636" />
+# 2. Command Processing Pipeline
 <img width="6963" height="712" alt="2  Command Processing Pipeline" src="https://github.com/user-attachments/assets/7dec149e-6ad3-4402-b3e9-63239d97229b" />
+# 3. Parser State Machine
 <img width="2916" height="1552" alt="3  Parser State Machine" src="https://github.com/user-attachments/assets/e3820da0-2a01-4292-abb1-bcc7f3c7a5a7" />
+# 4. Module Dependency Graph
 <img width="5143" height="992" alt="4  Module Dependency Graph" src="https://github.com/user-attachments/assets/6b177f6d-062c-45db-899a-e2f8df9fd2f6" />
+# 5. Job Control State Machine
 <img width="2327" height="1528" alt="5  Job Control State Machine" src="https://github.com/user-attachments/assets/2ec42526-c5c9-4175-bf57-e9b0fd17a204" />
+# 6. Cache System Architecture
 <img width="1810" height="1624" alt="6  Cache System Architecture" src="https://github.com/user-attachments/assets/4405228a-c373-440a-b27f-6d2c19b4a036" />
+# 7. Async Execution Flow
 <img width="2558" height="1952" alt="7  Async Execution Flow" src="https://github.com/user-attachments/assets/61430a10-c7c4-466c-a036-ac15089077bb" />
+# 8. Memory Pool Architecture
 <img width="2732" height="1836" alt="8  Memory Pool Architecture" src="https://github.com/user-attachments/assets/21c9316f-151d-4b9d-9452-95d2fda4ad9e" />
+# 9. Configuration System Flow
 <img width="2058" height="1372" alt="9  Configuration System Flow" src="https://github.com/user-attachments/assets/9bfcb46e-fec5-4365-b9ec-6d54a39ba633" />
+# 10. Complete Data Flow
 <img width="2613" height="1297" alt="10  Complete Data Flow" src="https://github.com/user-attachments/assets/c43e0082-8aae-4887-93a8-53996145c3fb" />
+# 11. Error Handling Flow
 <img width="1922" height="992" alt="11  Error Handling Flow" src="https://github.com/user-attachments/assets/094e3207-5ef4-40aa-9c67-5f07fde9cfbc" />
 
 
@@ -602,4 +614,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made for developers who value performance and modern features**
 
 </div>
+
 
