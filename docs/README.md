@@ -113,7 +113,7 @@ CD command (50x)            3ms       2ms       33% faster
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/rust_shell.git
+git clone https://github.com/sharpsalt/RShell-A-Custom-Linux-Shell-Built-in-Rust.git
 cd rust_shell
 
 # Build with maximum optimization
@@ -588,15 +588,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Author**: Srijan Verma
 - **Email**: srijanv0@gmail.com
-- **GitHub**: [@srijan-verma](https://github.com/srijan-verma)
-- **Project**: [RShell](https://github.com/yourusername/rust_shell)
+- **GitHub**: [@sharpsalt](https://github.com/sharpsalt)
+- **Project**: [RShell](https://github.com/yourusername/RShell-A-Custom-Linux-Shell-Built-in-Rust)
 
 ## Project Stats
 
-![GitHub stars](https://img.shields.io/github/stars/sharpsalt/rust_shell?style=social)
-![GitHub forks](https://img.shields.io/github/forks/sharpsalt/rust_shell?style=social)
-![GitHub issues](https://img.shields.io/github/issues/sharpsalt/rust_shell)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/sharpsalt/rust_shell)
+![GitHub stars](https://img.shields.io/github/stars/sharpsalt/RShell-A-Custom-Linux-Shell-Built-in-Rust?style=social)
+![GitHub forks](https://img.shields.io/github/forks/sharpsalt/RShell-A-Custom-Linux-Shell-Built-in-Rust?style=social)
+![GitHub issues](https://img.shields.io/github/issues/sharpsalt/RShell-A-Custom-Linux-Shell-Built-in-Rust)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/sharpsalt/RShell-A-Custom-Linux-Shell-Built-in-Rust)
 
 ---
 
@@ -606,11 +606,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
  Star us on GitHub — it helps!
 
-[Report Bug](https://github.com/sharpsalt/rust_shell/issues) • [Request Feature](https://github.com/sharpsalt/rust_shell/issues)
+[Report Bug](https://github.com/sharpsalt/RShell-A-Custom-Linux-Shell-Built-in-Rust/issues) • [Request Feature](https://github.com/sharpsalt/RShell-A-Custom-Linux-Shell-Built-in-Rust/issues)
 
 **Made for developers who value performance and modern features**
 
 </div>
+
 
 
 
