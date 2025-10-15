@@ -1,4 +1,3 @@
-// src/scripting.rs
 use crate::shell::Shell;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
