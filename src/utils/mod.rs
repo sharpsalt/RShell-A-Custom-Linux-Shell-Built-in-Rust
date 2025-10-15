@@ -1,5 +1,7 @@
-// pub mod helpers;
-// pub use helpers::*;
+// utils/mod.rs
+pub mod helpers;
+
+// Only export what's actually used
 
 pub mod string_utils{
     pub fn smart_split(input:&str)->Vec<String>{
@@ -10,14 +12,14 @@ pub mod string_utils{
         let mut chars=input.chars().peekable();
         while let Some(ch)=chars.next(){
             match ch{
-                '"'|'\''if !in_quotes=>{
+                '"' | '\'' if !in_quotes => {
                     in_quotes=true;
                     quote_char=ch;
                 }
                 ch if in_quotes && ch==quote_char=>{
                     in_quotes=false;
                 }
-                ' '|'\t' if !in_quotes=>{
+                ' ' | '\t' if !in_quotes => {
                     if !current.is_empty(){
                         result.push(current.clone());
                         current.clear();

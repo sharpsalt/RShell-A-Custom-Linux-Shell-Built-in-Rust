@@ -1,3 +1,4 @@
+// utils/helpers.rs
 use std::collections::HashMap;
 use std::fs::File;
 use std::io::{self,Write,BufRead,BufReader};
@@ -52,7 +53,7 @@ pub fn load_config(config_path:&Path)->io::Result<HashMap<String,String>>{
     let reader=BufReader::new(file);
     for line in reader.lines(){
         let line=line?;
-        let lin =line.trim();
+        let _lin = line.trim();
         if line.is_empty() || line.starts_with('#'){
             continue;
         }

@@ -1,15 +1,22 @@
-pub mod shell;
 pub mod command;
+pub mod config;
+pub mod shell;
 pub mod utils;
-pub use command::{Command,CommandType};
-pub mod config{
-    pub const SHELL_NAME:&str="rshell";
-    pub const SHELL_VERSION:&str="0.1.0";
-    pub const DEFAULT_PROMPT:&str="$ ";
-    pub const HISTORY_SIZE:usize=1000;
-    pub const MAX_COMMAND_LENGTH:usize=4096;
-    pub const MAX_ARGS:usize=100;
-}
+pub mod history;
+pub mod scripting;
+
+// Add the new modules
+pub mod alias;
+pub mod job_control;
+pub mod signal_handler;
+pub mod line_editor;
+pub mod cache;
+pub mod async_io;
+pub mod parallel_exec;
+pub mod performance;
+pub mod memory_pool;
+
+pub use command::{Command, CommandType};
 
 #[derive(Debug)]
 pub enum ShellError{

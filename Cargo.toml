@@ -7,10 +7,36 @@ description = "A custom shell implementation in Rust"
 
 [dependencies]
 libc = "0.2"
-nix = "0.27"
+nix = { version = "0.27", features = ["process", "signal", "fs"] }
 rustyline = "10.0"
 dirs = "4.0"
+glob = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+gethostname = "0.4"
+lru = "0.12"
+tokio = { version = "1.35", features = ["full"] }
+futures = "0.3"
+rayon = "1.8"
+crossbeam = "0.8"
+parking_lot = "0.12"
+num_cpus = "1.16"
 
 [[bin]]
 name = "rshell"
 path = "src/main.rs"
+
+[features]
+default = ["completion", "hints"]
+completion = []
+hints = []
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"
+
+[profile.bench]
+inherits = "release"
