@@ -70,14 +70,14 @@ CD command (50x)            3ms       2ms       33% faster
 ## Features
 
 ### Core Shell Capabilities
-- ✅ Command Execution - Run any system command or program
-- ✅ Built-in Commands - Essential commands like `cd`, `pwd`, `echo`, `export`
-- ✅ Pipes & Redirection - Full support for `|`, `>`, `>>`, `<`
-- ✅ Job Control - Background jobs with `&`, `jobs`, `fg`, `bg`
-- ✅ Command Chaining - Logical operators `&&`, `||`, `;`
-- ✅ Command Substitution - Both `$(command)` and `` `command` `` syntax
-- ✅ Glob Expansion - Wildcards like `*.txt`, `file?.log`, `[a-z]*`
-- ✅ Signal Handling - Proper handling of Ctrl+C, Ctrl+Z, Ctrl+D
+-  Command Execution - Run any system command or program
+-  Built-in Commands - Essential commands like `cd`, `pwd`, `echo`, `export`
+-  Pipes & Redirection - Full support for `|`, `>`, `>>`, `<`
+-  Job Control - Background jobs with `&`, `jobs`, `fg`, `bg`
+-  Command Chaining - Logical operators `&&`, `||`, `;`
+-  Command Substitution - Both `$(command)` and `` `command` `` syntax
+-  Glob Expansion - Wildcards like `*.txt`, `file?.log`, `[a-z]*`
+-  Signal Handling - Proper handling of Ctrl+C, Ctrl+Z, Ctrl+D
 
 ### Modern Developer Experience
 - Tab Completion - Context-aware completion for commands and files
@@ -535,8 +535,6 @@ We welcome contributions! Here's how you can help:
 git clone https://github.com/yourusername/rust_shell.git
 cd rust_shell
 
-# Create branch
-git checkout -b feature/your-feature
 
 # Make changes and test
 cargo test
@@ -579,40 +577,33 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Contributors and users of RShell
 - Benchmark methodology inspired by hyperfine
 
-## Resources
-
-- [User Guide](docs/USER_GUIDE.md) - Detailed usage instructions
-- [API Documentation](docs/API.md) - For developers
-- [FAQ](docs/FAQ.md) - Frequently asked questions
-- [Changelog](CHANGELOG.md) - Version history
-- [Contributing Guide](CONTRIBUTING.md) - Contribution guidelines
-
 ## Contact
 
 - **Author**: Srijan Verma
-- **Email**: srijan.verma@example.com
+- **Email**: srijanv0@gmail.com
 - **GitHub**: [@srijan-verma](https://github.com/srijan-verma)
 - **Project**: [RShell](https://github.com/yourusername/rust_shell)
 
 ## Project Stats
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/rust_shell?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/rust_shell?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/rust_shell)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/rust_shell)
+![GitHub stars](https://img.shields.io/github/stars/sharpsalt/rust_shell?style=social)
+![GitHub forks](https://img.shields.io/github/forks/sharpsalt/rust_shell?style=social)
+![GitHub issues](https://img.shields.io/github/issues/sharpsalt/rust_shell)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/sharpsalt/rust_shell)
 
 ---
 
 <div align="center">
 
-**Built with ❤️ in Rust**
+**Built with heart(ain't able to put emoji's here) in Rust**
 
-⭐ Star us on GitHub — it helps!
+ Star us on GitHub — it helps!
 
-[Report Bug](https://github.com/yourusername/rust_shell/issues) • [Request Feature](https://github.com/yourusername/rust_shell/issues)
+[Report Bug](https://github.com/sharpsalt/rust_shell/issues) • [Request Feature](https://github.com/sharpsalt/rust_shell/issues)
 
 **Made for developers who value performance and modern features**
 
 </div>
+
 
 
